@@ -1,0 +1,108 @@
+/* Global Style */
+@font-face {
+	font-family: "Titillium Web Regular";
+	src: url("../fonts/TitilliumWebRegular.ttf");
+}
+@font-face {
+	font-family: "Titillium Web Bold";
+	src: url("../fonts/TitilliumWebBold.ttf");
+}
+@font-face {
+	font-family: "Titillium Web SemiBold";
+	src: url("../fonts/TitilliumWebSemiBold.ttf");
+}
+@font-face {
+	font-family: "Titillium Web Light";
+	src: url("../fonts/TitilliumWebLight.ttf");
+}
+@font-face {
+	font-family: "Titillium Web Italic";
+	src: url("../fonts/TitilliumWebItalic.ttf");
+}
+body {
+	background: white;
+	font-family: 'Open Sans', sans-serif;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.navbar-brand {
+	height: auto;
+}
+
+/* Typography */
+h1 {
+	font-family: "Titillium Web Bold";
+	font-size: 42px;
+}
+h2 {
+	font-family: "Titillium Web Bold";
+	font-size: 40px;	
+	text-transform: uppercase;
+}
+h3 {
+	font-family: "Titillium Web Bold";
+	font-size: 24px;	
+	text-transform: uppercase;	
+}
+h4 {
+	font-family: "Titillium Web SemiBold";
+	font-size: 24px;
+	text-transform: lowercase;		
+}
+h5 {
+	font-family: "Titillium Web Regular";
+	text-transform: capitalize;		
+}
+h6 {
+	font-family: "Titillium Web Regular";		
+}
+p {
+	font-family: "Titillium Web Regular";
+}
+/* Sections */
+#header-wrapper {
+	background: #87509c;
+	color: white;
+	padding-top: 45px;
+	padding-bottom: 140px;
+
+}
+#header-wrapper h1{
+	text-align: center;
+	padding-bottom: 60px;
+}
+#header-wrapper .btn-warning {
+	display: block;
+	margin: auto;
+	text-transform: uppercase;
+	font-family: "Titillium Web SemiBold";
+	font-size: 28px;
+	padding: 27px 80px;
+	box-shadow: inset 0px -5px 0px #c86a40;
+}
+#header-wrapper .navbar {
+	padding-bottom: 100px;
+}
+#header-wrapper .nav a {
+	font-family: "Titillium Web Regular";
+	font-size: 16px;
+	text-transform: uppercase;
+	color: white;
+	padding: 10px 17px;
+
+}
+#header-wrapper .nav a:hover {
+	background: #643a79;
+	border-radius: 5px;
+}
+#header-wrapper .nav {
+	padding-top: 18px;
+}
+#header-wrapper .icon-bar {
+	background-color: white;
+}
+#header-wrapper .navbar-toggle {
+	padding-top: 22px;
+}
